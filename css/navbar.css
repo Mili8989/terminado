@@ -1,0 +1,13 @@
+.m-navbar-bg {
+background-color: rgb(77, 14, 65) !important;
+}
+.m-navbar-items li a {
+    color: rgb(252, 221, 255) !important;
+}
+.colore{
+    color: rgb(252, 221, 255) !important;
+}
+.ser{
+    color: var(--m-color-bg);
+    
+}

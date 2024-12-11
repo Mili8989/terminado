@@ -1,0 +1,60 @@
+#servicios
+{
+    div {
+        div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            div {
+                #v-pills-tab {
+                    width: 50%;
+                    button {
+                        font-size: 1.2rem;
+                        text-align: left;
+                        background-color: transparent;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        color: var(--m-color-bg);
+                        i {
+                            color: var(--m-color-primary);
+                            font-size: 1.5rem;
+                            background-color: var(--m-color-bg);
+                            border: 1px solid var(--m-color-bg);
+                            border-radius: 1000px;
+                            width: 45px !important;
+                            height: 45px !important;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin-right: 10px;
+                            transition: all 0.3s 0.1s ease-in-out;
+                        }
+                        &:hover {
+                            background-color: transparent;
+                        }
+                    }
+                    button.active {
+                        background-color: transparent;
+                        i {
+                            color: var(--m-color-bg);
+                            background-color: var(--m-color-secondary);
+                            border-color: var(--m-color-primary);
+                        }
+                    }
+                }
+                #v-pills-tabContent {
+                    display: block;
+                    width: 50%;
+                    background-color: transparent;
+                    @media screen and (max-width: 600px) {
+                        width: 40%;
+                    }
+                }
+            }
+            img {
+                width: 300px;
+            }
+        }
+    }
+}
